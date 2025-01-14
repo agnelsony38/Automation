@@ -22,7 +22,7 @@ public class BrowserTest {
 		driver.get("https://labproject2025-a6ccb2amahfvdhb6.canadacentral-01.azurewebsites.net/webapp/");
 		String text =driver.findElement(By.cssSelector("h1")).getText();
 		System.out.println(text);
-		Assert.assertTrue(text.equalsIgnoreCase("RahulShettyAcademy.com Learning"));
+		Assert.assertTrue(text.equalsIgnoreCase("https://labproject2025-a6ccb2amahfvdhb6.canadacentral-01.azurewebsites.net/webapp/"));
 		driver.close();
 	
 		
